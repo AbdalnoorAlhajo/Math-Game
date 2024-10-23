@@ -1,0 +1,28 @@
+# Ignore sensitive files
+.env
+config.json
+
+# Ignore build files and logs
+*.log
+**/bin/
+**/obj/
+
+# Ignore Visual Studio specific files
+.vs/
+
+# Ignore user-specific files
+*.user
+*.suo
+
+# Ignore temporary files and directories
+*.tmp
+*.temp
+**/temp/
+**/tmp/
+*.bak
+*.swp
+
+# Ignore Visual Studio Code specific files
+.vscode/
+
+**/*.pdb
