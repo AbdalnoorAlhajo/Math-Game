@@ -1,28 +1,20 @@
-# Ignore sensitive files
-.env
-config.json
+# Ignore output and intermediate files
+x64/Debug/
+Math Game.exe
+Math Game.ilk
+Math Game.obj
+Math Game.exe.recipe
 
-# Ignore build files and logs
-*.log
-**/bin/
-**/obj/
+# Ignore temporary build files
+*.tlog
+Math Game.lastbuildstate
+vc143.idb
 
-# Ignore Visual Studio specific files
-.vs/
-
-# Ignore user-specific files
+# Ignore Visual Studio user-specific files
 *.user
 *.suo
 
-# Ignore temporary files and directories
-*.tmp
-*.temp
-**/temp/
-**/tmp/
-*.bak
-*.swp
-
-# Ignore Visual Studio Code specific files
-.vscode/
-
+# Ignore all PDB files at any level
 **/*.pdb
+
+.vs/
