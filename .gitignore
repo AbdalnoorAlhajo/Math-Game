@@ -4,17 +4,17 @@ Math Game.exe
 Math Game.ilk
 Math Game.obj
 Math Game.exe.recipe
-
-# Ignore temporary build files
+Math Game.log
+Math Game.tlog
 *.tlog
 Math Game.lastbuildstate
 vc143.idb
 
-# Ignore Visual Studio user-specific files
+# Ignore Visual Studio temporary files
+.vs/
 *.user
 *.suo
 
+
 # Ignore all PDB files at any level
 **/*.pdb
-
-.vs/
